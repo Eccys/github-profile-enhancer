@@ -1,0 +1,62 @@
+{
+  "languages": [
+    {"name": "Python", "badge": "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"},
+    {"name": "JavaScript", "badge": "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"},
+    {"name": "TypeScript", "badge": "https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"},
+    {"name": "Go", "badge": "https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white"},
+    {"name": "Rust", "badge": "https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white"},
+    {"name": "C++", "badge": "https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"},
+    {"name": "Java", "badge": "https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"},
+    {"name": "Kotlin", "badge": "https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white"},
+    {"name": "PHP", "badge": "https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"},
+    {"name": "HTML5", "badge": "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"},
+    {"name": "CSS3", "badge": "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"},
+    {"name": "Swift", "badge": "https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white"},
+    {"name": "Ruby", "badge": "https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white"}
+  ],
+  "frameworks": [
+    {"name": "React", "badge": "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"},
+    {"name": "Vue.js", "badge": "https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D"},
+    {"name": "Svelte", "badge": "https://img.shields.io/badge/Svelte-4A154B?style=for-the-badge&logo=svelte&logoColor=f14135"},
+    {"name": "Next.js", "badge": "https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"},
+    {"name": "Angular", "badge": "https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"},
+    {"name": "Node.js", "badge": "https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"},
+    {"name": "Express", "badge": "https://img.shields.io/badge/Express.js-404d59?style=for-the-badge"},
+    {"name": "Django", "badge": "https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"},
+    {"name": "Flask", "badge": "https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"},
+    {"name": "FastAPI", "badge": "https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=009688"},
+    {"name": "Spring Boot", "badge": "https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white"},
+    {"name": "Flutter", "badge": "https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"},
+    {"name": "TailwindCSS", "badge": "https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"}
+  ],
+  "tools": [
+    {"name": "Git", "badge": "https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"},
+    {"name": "Docker", "badge": "https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"},
+    {"name": "Kubernetes", "badge": "https://img.shields.io/badge/kubernetes-326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white"},
+    {"name": "AWS", "badge": "https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"},
+    {"name": "GCP", "badge": "https://img.shields.io/badge/GCP-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white"},
+    {"name": "Linux", "badge": "https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"},
+    {"name": "Arch Linux", "badge": "https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white"},
+    {"name": "GitHub Actions", "badge": "https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"},
+    {"name": "Vercel", "badge": "https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"},
+    {"name": "Netlify", "badge": "https://img.shields.io/badge/Netlify-%2300C7B7.svg?style=for-the-badge&logo=netlify&logoColor=white"}
+  ],
+  "databases": [
+    {"name": "PostgreSQL", "badge": "https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"},
+    {"name": "MySQL", "badge": "https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white"},
+    {"name": "MongoDB", "badge": "https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"},
+    {"name": "Redis", "badge": "https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"},
+    {"name": "SQLite", "badge": "https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white"},
+    {"name": "Firebase", "badge": "https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white"}
+  ],
+  "socials": [
+    {"name": "GitHub", "badge": "https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"},
+    {"name": "LinkedIn", "badge": "https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"},
+    {"name": "Twitter/X", "badge": "https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white"},
+    {"name": "Discord", "badge": "https://img.shields.io/badge/discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white"},
+    {"name": "YouTube", "badge": "https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white"},
+    {"name": "Instagram", "badge": "https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"},
+    {"name": "Medium", "badge": "https://img.shields.io/badge/Medium-%2312100E.svg?style=for-the-badge&logo=Medium&logoColor=white"},
+    {"name": "Dev.to", "badge": "https://img.shields.io/badge/dev.to-%230A0A0A.svg?style=for-the-badge&logo=devto&logoColor=white"}
+  ]
+}
