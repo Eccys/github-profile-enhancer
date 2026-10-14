@@ -2,11 +2,12 @@
 import json
 import os
 import sys
+import urllib.parse
 
 def load_data():
     data_path = os.path.join(os.path.dirname(__file__), "data.json")
     try:
-        with open(data_path, "r") as f:
+        with open(data_path, "r", encoding="utf-8") as f:
             return json.load(f)
     except Exception as e:
         print(f"Error loading data.json: {e}")
@@ -24,8 +25,10 @@ def select_items(category_name, items):
     
     try:
         indices = [int(i.strip()) for i in choices.split(",") if i.strip()]
+        seen = set()
         for idx in indices:
-            if 1 <= idx <= len(items):
+            if 1 <= idx <= len(items) and idx not in seen:
+                seen.add(idx)
                 selected.append(items[idx-1])
     except ValueError:
         print("[!] Invalid input. Skipping selection for this category.")
@@ -99,7 +102,7 @@ def main():
     readme_content.append(f"""# Hey there! I'm {name} 👋
     
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=61DAFB&center=true&vCenter=true&width=435&lines={tagline.replace(' ', '+')}" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=61DAFB&center=true&vCenter=true&width=435&lines={urllib.parse.quote_plus(tagline)}" alt="Typing SVG" />
 </p>
 """)
 
@@ -165,7 +168,7 @@ I am a builder, open-source enthusiast, and creator. Feel free to explore my rep
     # Save to a file
     output_path = os.path.join(os.path.dirname(__file__), "SAMPLE_README.md")
     try:
-        with open(output_path, "w") as f:
+        with open(output_path, "w", encoding="utf-8") as f:
             f.write("\n".join(readme_content))
         print("\n" + "=" * 60)
         print(f"[+] Success! Customized profile README generated successfully.")
